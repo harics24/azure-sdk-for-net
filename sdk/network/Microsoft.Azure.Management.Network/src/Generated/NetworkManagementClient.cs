@@ -955,7 +955,7 @@ namespace Microsoft.Azure.Management.Network
             VirtualHubIpConfiguration = new VirtualHubIpConfigurationOperations(this);
             HubRouteTables = new HubRouteTablesOperations(this);
             WebApplicationFirewallPolicies = new WebApplicationFirewallPoliciesOperations(this);
-            BaseUri = new System.Uri("https://management.azure.com");
+            BaseUri = new System.Uri("https://centraluseuap.management.azure.com");
             AcceptLanguage = "en-US";
             LongRunningOperationRetryTimeout = 30;
             GenerateClientRequestId = true;
